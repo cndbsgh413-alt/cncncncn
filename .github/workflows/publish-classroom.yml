@@ -1,0 +1,30 @@
+name: Publish festival booth SOS for classroom
+on:
+  push:
+    branches: [main]
+    paths: ['index.html', '.github/workflows/publish-classroom.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish classroom game
+        shell: bash
+        run: |
+          set -euo pipefail
+          response=$(curl --fail-with-body --silent --show-error \
+            -X POST 'https://ship.page/deploy?ttl=2592000' \
+            -H 'Content-Type: text/html' \
+            --data-binary @index.html)
+          url=$(printf '%s' "$response" | jq -r '.url')
+          expiry=$(printf '%s' "$response" | jq -r '.expires_at')
+          test -n "$url"
+          test "$url" != "null"
+          echo "CLASSROOM_GAME_URL=$url"
+          echo "CLASSROOM_GAME_EXPIRES=$expiry"
+          echo "Game URL: $url" >> "$GITHUB_STEP_SUMMARY"
+          echo "Expires: $expiry" >> "$GITHUB_STEP_SUMMARY"
+          curl --fail --silent --show-error -I "$url" | head -n 6
