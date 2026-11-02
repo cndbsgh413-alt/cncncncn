@@ -5,26 +5,29 @@ on:
     paths: ['index.html', '.github/workflows/publish-classroom.yml']
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Publish classroom game
+      - name: Publish and record live URL
         shell: bash
         run: |
           set -euo pipefail
-          response=$(curl --fail-with-body --silent --show-error \
-            -X POST 'https://ship.page/deploy?ttl=2592000' \
+          response=$(curl --retry 3 --fail-with-body --silent --show-error \
+            -X POST 'https://ship.page/deploy?ttl=2592000&agent=chatgpt' \
             -H 'Content-Type: text/html' \
             --data-binary @index.html)
           url=$(printf '%s' "$response" | jq -r '.url')
           expiry=$(printf '%s' "$response" | jq -r '.expires_at')
-          test -n "$url"
-          test "$url" != "null"
-          echo "CLASSROOM_GAME_URL=$url"
-          echo "CLASSROOM_GAME_EXPIRES=$expiry"
+          test "$url" != "null" && test -n "$url"
+          printf '# 축제부스 SOS 2 - 8회 개인전\n\n게임 주소: %s\n\n만료 예정: %s\n' "$url" "$expiry" > CLASSROOM_LINK.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CLASSROOM_LINK.md
+          git commit -m "Record live classroom game URL"
+          git push
           echo "Game URL: $url" >> "$GITHUB_STEP_SUMMARY"
           echo "Expires: $expiry" >> "$GITHUB_STEP_SUMMARY"
           curl --fail --silent --show-error -I "$url" | head -n 6
