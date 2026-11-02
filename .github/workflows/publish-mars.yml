@@ -1,0 +1,33 @@
+name: Publish Mars Base SOS
+on:
+  push:
+    branches: [main]
+    paths: ['mars-base/index.html', '.github/workflows/publish-mars.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish Mars game and save student link
+        shell: bash
+        run: |
+          set -euo pipefail
+          response=$(curl --retry 3 --fail-with-body --silent --show-error \
+            -X POST 'https://ship.page/deploy?ttl=2592000&agent=chatgpt' \
+            -H 'Content-Type: text/html' \
+            --data-binary @mars-base/index.html)
+          url=$(printf '%s' "$response" | jq -r '.url')
+          expiry=$(printf '%s' "$response" | jq -r '.expires_at')
+          test -n "$url" && test "$url" != "null"
+          printf '# 화성 기지 SOS - 8회 개인전\n\n게임 주소: %s\n\n만료 예정: %s\n' "$url" "$expiry" > MARS_LINK.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add MARS_LINK.md
+          git commit -m "Record Mars base classroom game address"
+          git push
+          echo "Mars game: $url" >> "$GITHUB_STEP_SUMMARY"
+          echo "Expires: $expiry" >> "$GITHUB_STEP_SUMMARY"
+          curl --fail --silent --show-error -I "$url" | head -n 6
