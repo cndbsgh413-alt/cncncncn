@@ -1,0 +1,586 @@
+{
+  "version": "2026-11-03",
+  "cards": [
+    {
+      "id": "d5-01",
+      "en": "So far, so good!",
+      "ko": "지금까지는 괜찮아!",
+      "day": "2026-11-03",
+      "tag": "일상"
+    },
+    {
+      "id": "d5-02",
+      "en": "Things are looking up.",
+      "ko": "상황이 점점 나아지고 있어.",
+      "day": "2026-11-03",
+      "tag": "일상"
+    },
+    {
+      "id": "d5-03",
+      "en": "I've been keeping a close eye on the Nasdaq lately.",
+      "ko": "요즘 나스닥을 예의주시하고 있어.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-04",
+      "en": "AI bubble fears and the midterms are weighing on the market.",
+      "ko": "AI 거품 우려와 중간선거가 시장에 부담을 주고 있어.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-05",
+      "en": "I'm just sitting tight for now.",
+      "ko": "지금은 일단 관망하고 있어.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-06",
+      "en": "If the Nasdaq drops 20%, I'm gonna buy the dip.",
+      "ko": "나스닥이 20% 떨어지면 저가 매수할 거야.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-07",
+      "en": "I'd put it all in at once.",
+      "ko": "나라면 투자금을 한 번에 전부 넣을 거야.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-08",
+      "en": "I'm in it for the long haul.",
+      "ko": "난 장기적으로 투자하고 있어.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-09",
+      "en": "I'll just ride it out.",
+      "ko": "그냥 버티면서 지나가길 기다릴 거야.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-10",
+      "en": "I got into investing about four years ago.",
+      "ko": "약 4년 전에 투자를 시작했어.",
+      "day": "2026-11-03",
+      "tag": "투자"
+    },
+    {
+      "id": "d5-11",
+      "en": "Alright, everyone! Eyes on me, please!",
+      "ko": "자, 여러분! 선생님을 봐 주세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-12",
+      "en": "Can I have your attention, please?",
+      "ko": "모두 집중해 줄래요?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-13",
+      "en": "Settle down, everyone.",
+      "ko": "여러분, 조용히 하고 진정하세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-14",
+      "en": "Turn to page 45 and take a look at the picture.",
+      "ko": "45쪽을 펴고 그림을 한번 보세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-15",
+      "en": "Work with a partner.",
+      "ko": "짝과 함께 활동하세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-16",
+      "en": "Who wants to give it a try?",
+      "ko": "누가 한번 해 볼래요?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-17",
+      "en": "Listen carefully and repeat after me.",
+      "ko": "잘 듣고 따라 말하세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-18",
+      "en": "Let's wrap things up.",
+      "ko": "이제 마무리합시다.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d4-01",
+      "en": "This week sucked. I don't even wanna think about it.",
+      "ko": "이번 주 진짜 최악이었어. 생각조차 하기 싫어.",
+      "day": "2026-10-30",
+      "tag": "힘든 한 주"
+    },
+    {
+      "id": "d4-02",
+      "en": "It's been a rough week, both at work and at home.",
+      "ko": "이번 주는 직장에서도 집에서도 정말 힘들었어.",
+      "day": "2026-10-30",
+      "tag": "힘든 한 주"
+    },
+    {
+      "id": "d4-03",
+      "en": "I've been dealing with a lot lately.",
+      "ko": "요즘 이런저런 일로 힘들어.",
+      "day": "2026-10-30",
+      "tag": "힘든 한 주"
+    },
+    {
+      "id": "d4-04",
+      "en": "I messed up a student's tournament registration.",
+      "ko": "학생의 대회 참가 신청을 실수했어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-05",
+      "en": "But there's more to the story.",
+      "ko": "하지만 여기에는 다른 사정도 있어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-06",
+      "en": "I feel like I was unfairly blamed.",
+      "ko": "억울하게 비난받은 것 같아.",
+      "day": "2026-10-30",
+      "tag": "감정"
+    },
+    {
+      "id": "d4-07",
+      "en": "The registration process was pretty informal, so I got the wrong idea.",
+      "ko": "신청 과정이 꽤 비공식적이어서 내가 잘못 이해했어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-08",
+      "en": "There was a misunderstanding.",
+      "ko": "오해가 있었어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-09",
+      "en": "I thought his Go academy had already signed him up.",
+      "ko": "난 바둑학원에서 이미 그 학생을 신청한 줄 알았어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-10",
+      "en": "Even so, she was still really upset.",
+      "ko": "그럼에도 그녀는 여전히 정말 화가 나 있었어.",
+      "day": "2026-10-30",
+      "tag": "감정"
+    },
+    {
+      "id": "d4-11",
+      "en": "I ended up apologizing to her.",
+      "ko": "결국 그분께 사과하게 됐어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-12",
+      "en": "It seemed like the best thing to do.",
+      "ko": "그게 최선인 것 같았어.",
+      "day": "2026-10-30",
+      "tag": "판단"
+    },
+    {
+      "id": "d4-13",
+      "en": "I thought it was all over, but she ended up filing a formal complaint.",
+      "ko": "다 끝난 줄 알았는데 결국 공식 민원을 넣었어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-14",
+      "en": "The local education office called me.",
+      "ko": "교육청에서 나에게 전화했어.",
+      "day": "2026-10-30",
+      "tag": "직장"
+    },
+    {
+      "id": "d4-15",
+      "en": "As far as I'm concerned, it's over.",
+      "ko": "적어도 내 입장에서는 이제 끝난 일이야.",
+      "day": "2026-10-30",
+      "tag": "감정"
+    },
+    {
+      "id": "d4-16",
+      "en": "I've put the whole thing behind me.",
+      "ko": "난 이제 그 일을 털어버렸어.",
+      "day": "2026-10-30",
+      "tag": "감정"
+    },
+    {
+      "id": "d4-17",
+      "en": "Let me explain my side of the story.",
+      "ko": "내 입장에서 있었던 일을 설명해 볼게.",
+      "day": "2026-10-30",
+      "tag": "회화"
+    },
+    {
+      "id": "d4-18",
+      "en": "Clear up a misunderstanding.",
+      "ko": "오해를 풀다.",
+      "day": "2026-10-30",
+      "tag": "회화"
+    },
+    {
+      "id": "d3-01",
+      "en": "I wanna sound like a native speaker.",
+      "ko": "원어민처럼 자연스럽게 말하고 싶어.",
+      "day": "2026-10-27",
+      "tag": "학습 목표"
+    },
+    {
+      "id": "d3-02",
+      "en": "I wanna get better at English.",
+      "ko": "영어를 더 잘하고 싶어.",
+      "day": "2026-10-27",
+      "tag": "학습 목표"
+    },
+    {
+      "id": "d3-03",
+      "en": "I teach fifth grade.",
+      "ko": "나는 5학년을 가르쳐.",
+      "day": "2026-10-27",
+      "tag": "직업"
+    },
+    {
+      "id": "d3-04",
+      "en": "The best part is having time to work on myself.",
+      "ko": "가장 좋은 점은 자기계발할 시간이 있다는 거야.",
+      "day": "2026-10-27",
+      "tag": "자기계발"
+    },
+    {
+      "id": "d3-05",
+      "en": "I'm learning Japanese, too.",
+      "ko": "나 일본어도 배우고 있어.",
+      "day": "2026-10-27",
+      "tag": "언어"
+    },
+    {
+      "id": "d3-06",
+      "en": "I feel like Japanese is easier than English.",
+      "ko": "일본어가 영어보다 쉬운 것 같아.",
+      "day": "2026-10-27",
+      "tag": "의견"
+    },
+    {
+      "id": "d3-07",
+      "en": "We have a lot in common.",
+      "ko": "우리는 공통점이 많아.",
+      "day": "2026-10-27",
+      "tag": "의견"
+    },
+    {
+      "id": "d3-08",
+      "en": "I'm a planner.",
+      "ko": "나는 계획적인 사람이야.",
+      "day": "2026-10-27",
+      "tag": "성격"
+    },
+    {
+      "id": "d3-09",
+      "en": "I like to have things figured out ahead of time.",
+      "ko": "일을 미리 계획해 두는 걸 좋아해.",
+      "day": "2026-10-27",
+      "tag": "성격"
+    },
+    {
+      "id": "d3-10",
+      "en": "I get pretty stressed out when things don't go as planned.",
+      "ko": "계획대로 일이 안 풀리면 스트레스를 꽤 받아.",
+      "day": "2026-10-27",
+      "tag": "감정"
+    },
+    {
+      "id": "d3-11",
+      "en": "I've been trying to make more time for my family.",
+      "ko": "요즘 가족과 더 많은 시간을 보내려고 노력하고 있어.",
+      "day": "2026-10-27",
+      "tag": "가족"
+    },
+    {
+      "id": "d3-12",
+      "en": "Parenting is exhausting, but it's totally worth it.",
+      "ko": "육아는 힘들지만 충분히 가치가 있어.",
+      "day": "2026-10-27",
+      "tag": "육아"
+    },
+    {
+      "id": "d3-13",
+      "en": "I think I'd get bored if I didn't have a job.",
+      "ko": "직업이 없다면 지루해질 것 같아.",
+      "day": "2026-10-27",
+      "tag": "가정"
+    },
+    {
+      "id": "d3-14",
+      "en": "I'd just lounge around on the couch all day.",
+      "ko": "그냥 하루 종일 소파에서 뒹굴거리며 쉴 거야.",
+      "day": "2026-10-27",
+      "tag": "휴식"
+    },
+    {
+      "id": "d3-15",
+      "en": "As long as I've gotten something done, I can relax guilt-free.",
+      "ko": "할 일을 끝냈다면 죄책감 없이 쉴 수 있어.",
+      "day": "2026-10-27",
+      "tag": "휴식"
+    },
+    {
+      "id": "d2-01",
+      "en": "Luckily, my little one only woke me up once last night.",
+      "ko": "다행히 막내가 어젯밤에 한 번만 깨웠어.",
+      "day": "2026-10-24",
+      "tag": "가족"
+    },
+    {
+      "id": "d2-02",
+      "en": "I don't get tired that easily.",
+      "ko": "난 그렇게 쉽게 지치지 않아.",
+      "day": "2026-10-24",
+      "tag": "성격"
+    },
+    {
+      "id": "d2-03",
+      "en": "I'm a pretty tough guy.",
+      "ko": "나 꽤 강한 사람이야.",
+      "day": "2026-10-24",
+      "tag": "성격"
+    },
+    {
+      "id": "d2-04",
+      "en": "I just chill on the couch.",
+      "ko": "그냥 소파에서 느긋하게 쉬어.",
+      "day": "2026-10-24",
+      "tag": "휴식"
+    },
+    {
+      "id": "d2-05",
+      "en": "I scroll through Instagram.",
+      "ko": "인스타그램을 둘러봐.",
+      "day": "2026-10-24",
+      "tag": "취미"
+    },
+    {
+      "id": "d2-06",
+      "en": "I check my stock portfolio.",
+      "ko": "내 주식 포트폴리오를 확인해.",
+      "day": "2026-10-24",
+      "tag": "취미"
+    },
+    {
+      "id": "d2-07",
+      "en": "I've been trying to check my stocks less often.",
+      "ko": "요즘 주식을 덜 확인하려고 노력 중이야.",
+      "day": "2026-10-24",
+      "tag": "습관"
+    },
+    {
+      "id": "d2-08",
+      "en": "It's better for my peace of mind.",
+      "ko": "그래야 마음이 더 편해.",
+      "day": "2026-10-24",
+      "tag": "감정"
+    },
+    {
+      "id": "d2-09",
+      "en": "I'm gonna hop in the shower.",
+      "ko": "샤워 좀 하고 올게.",
+      "day": "2026-10-24",
+      "tag": "일상"
+    },
+    {
+      "id": "d2-10",
+      "en": "We all went shopping together.",
+      "ko": "우리 모두 함께 쇼핑하러 갔어.",
+      "day": "2026-10-24",
+      "tag": "쇼핑"
+    },
+    {
+      "id": "d2-11",
+      "en": "I picked up a few vintage pieces.",
+      "ko": "빈티지 옷 몇 벌 건졌어.",
+      "day": "2026-10-24",
+      "tag": "쇼핑"
+    },
+    {
+      "id": "d2-12",
+      "en": "I got a great deal on some clothes I've had my eye on.",
+      "ko": "눈여겨보던 옷을 좋은 가격에 건졌어.",
+      "day": "2026-10-24",
+      "tag": "쇼핑"
+    },
+    {
+      "id": "d1-01",
+      "en": "I'm really into AI these days.",
+      "ko": "요즘 AI에 푹 빠져 있어.",
+      "day": "2026-10-23",
+      "tag": "관심사"
+    },
+    {
+      "id": "d1-02",
+      "en": "I use it for both work and fun.",
+      "ko": "업무에도 쓰고 재미로도 사용해.",
+      "day": "2026-10-23",
+      "tag": "관심사"
+    },
+    {
+      "id": "d1-03",
+      "en": "I make web apps for my students.",
+      "ko": "학생들을 위한 웹앱을 만들어.",
+      "day": "2026-10-23",
+      "tag": "직업"
+    },
+    {
+      "id": "d1-04",
+      "en": "I mostly make games and stuff like that.",
+      "ko": "주로 게임이나 그런 비슷한 걸 만들어.",
+      "day": "2026-10-23",
+      "tag": "직업"
+    },
+    {
+      "id": "d1-05",
+      "en": "The kids really get into it.",
+      "ko": "아이들이 정말 푹 빠져서 해.",
+      "day": "2026-10-23",
+      "tag": "직업"
+    },
+    {
+      "id": "d1-06",
+      "en": "Sometimes the apps just don't work.",
+      "ko": "가끔 앱이 제대로 작동하지 않아.",
+      "day": "2026-10-23",
+      "tag": "직업"
+    },
+    {
+      "id": "d1-07",
+      "en": "It was pretty embarrassing.",
+      "ko": "꽤 민망했어.",
+      "day": "2026-10-23",
+      "tag": "감정"
+    },
+    {
+      "id": "d1-08",
+      "en": "Ask me about my life instead.",
+      "ko": "대신 내 일상에 관해 질문해 줘.",
+      "day": "2026-10-23",
+      "tag": "회화"
+    },
+    {
+      "id": "d1-09",
+      "en": "I've got two daughters.",
+      "ko": "나 딸이 둘 있어.",
+      "day": "2026-10-23",
+      "tag": "가족"
+    },
+    {
+      "id": "d1-10",
+      "en": "Do Americans always use proper grammar?",
+      "ko": "미국인들은 항상 정확한 문법을 사용해?",
+      "day": "2026-10-23",
+      "tag": "회화"
+    },
+    {
+      "id": "d1-11",
+      "en": "How am I doing so far?",
+      "ko": "지금까지 나 얼마나 잘하고 있어?",
+      "day": "2026-10-23",
+      "tag": "회화"
+    },
+    {
+      "id": "d1-12",
+      "en": "Tell me how Americans would say it.",
+      "ko": "미국인들은 어떻게 말하는지 알려줘.",
+      "day": "2026-10-23",
+      "tag": "회화"
+    },
+    {
+      "id": "d1-13",
+      "en": "I used to be a night owl.",
+      "ko": "예전에는 올빼미형 인간이었어.",
+      "day": "2026-10-23",
+      "tag": "성격"
+    },
+    {
+      "id": "d1-14",
+      "en": "Having kids turned me into a morning person.",
+      "ko": "아이들이 생기면서 아침형 인간이 됐어.",
+      "day": "2026-10-23",
+      "tag": "가족"
+    },
+    {
+      "id": "d1-15",
+      "en": "My little one woke me up three times last night.",
+      "ko": "막내가 어젯밤에 나를 세 번이나 깨웠어.",
+      "day": "2026-10-23",
+      "tag": "가족"
+    },
+    {
+      "id": "d1-16",
+      "en": "I was so cranky.",
+      "ko": "너무 짜증 나고 예민했어.",
+      "day": "2026-10-23",
+      "tag": "감정"
+    },
+    {
+      "id": "d1-17",
+      "en": "I take over when I get home from work.",
+      "ko": "퇴근해서 집에 오면 내가 육아를 넘겨받아.",
+      "day": "2026-10-23",
+      "tag": "가족"
+    },
+    {
+      "id": "d1-18",
+      "en": "My wife handles the kids while I'm at work.",
+      "ko": "내가 일하는 동안 아내가 아이들을 돌봐.",
+      "day": "2026-10-23",
+      "tag": "가족"
+    },
+    {
+      "id": "d1-19",
+      "en": "I barely get any me time.",
+      "ko": "나만의 시간이 거의 없어.",
+      "day": "2026-10-23",
+      "tag": "휴식"
+    },
+    {
+      "id": "d1-20",
+      "en": "Let's call it a day.",
+      "ko": "오늘은 여기까지 하자.",
+      "day": "2026-10-23",
+      "tag": "회화"
+    }
+  ]
+}
