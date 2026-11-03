@@ -1,6 +1,76 @@
 {
-  "version": "2026-11-03",
+  "version": "2026-11-03-classroom-expanded",
   "cards": [
+    {
+      "id": "d5-class-01",
+      "en": "Let's get started.",
+      "ko": "이제 수업을 시작합시다.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-02",
+      "en": "Open your English books to page 45.",
+      "ko": "영어책 45쪽을 펴세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-03",
+      "en": "What can you see in this picture?",
+      "ko": "이 그림에서 무엇이 보이나요?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-04",
+      "en": "Who can tell me?",
+      "ko": "누가 말해 볼래요?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-05",
+      "en": "Raise your hand if you know the answer.",
+      "ko": "정답을 알면 손을 드세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-06",
+      "en": "Take turns with your partner.",
+      "ko": "짝과 번갈아 해 보세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-07",
+      "en": "You have two minutes.",
+      "ko": "2분 줄게요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-08",
+      "en": "Let's check the answers together.",
+      "ko": "함께 정답을 확인해 봅시다.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-09",
+      "en": "Good try! Let's try again.",
+      "ko": "좋은 시도였어요! 다시 해 봅시다.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-10",
+      "en": "Any questions before we move on?",
+      "ko": "다음으로 넘어가기 전에 질문 있나요?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
     {
       "id": "d5-01",
       "en": "So far, so good!",
