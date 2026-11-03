@@ -1,0 +1,18 @@
+{
+  "name": "Everyday English · 매일 쌓이는 영어 표현장",
+  "short_name": "Everyday English",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#123452",
+  "description": "미국식 영어 회화·초등 영어수업 표현 자동 업데이트",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
