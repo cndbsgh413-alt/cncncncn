@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><meta name="theme-color" content="#17233e"/><title>나의 미국식 영어 표현장 · 자동 업데이트</title>
+<style>
+:root{--ink:#14213a;--sub:#6a7790;--blue:#4156d9;--mint:#dff6eb;--bg:#f4f6fb;--white:#fff;--line:#e0e6f0;--shadow:0 14px 40px #1c2e4b16}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.42}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #b5c3ff;outline-offset:2px}.hide{display:none!important}
+.top{background:#182642;color:#fff}.topin{max-width:1040px;min-height:72px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:12px}.logo{display:flex;align-items:center;gap:11px;font-weight:800}.logoicon{display:grid;place-items:center;background:#fefefe;color:#3347ad;border-radius:13px;font-size:20px;font-weight:900;width:41px;height:41px}.logosub{color:#b9c7e2;font-size:11px;letter-spacing:1.5px}.topbutton{border:1px solid #526280;background:#263857;color:white;padding:9px 11px;border-radius:10px;font-size:12px;font-weight:750}main{max-width:1040px;margin:auto;padding:32px 22px 80px}.titlebar{display:flex;justify-content:space-between;gap:12px;align-items:end}.eyebrow{color:#4962db;font-size:11px;letter-spacing:1.7px;font-weight:800}.titlebar h1{font-size:clamp(27px,4vw,39px);letter-spacing:-1.4px;line-height:1.2;margin:7px 0}.titlebar p{margin:0 0 4px;font-size:13px;color:var(--sub)}.chip{border:1px solid #dce3ff;background:#eaf0ff;border-radius:100px;color:#3d53ac;padding:9px 13px;font-size:12px;font-weight:800;white-space:nowrap}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.stat{background:white;border:1px solid var(--line);border-radius:17px;padding:17px}.stat label{display:block;font-size:12px;color:var(--sub);font-weight:750}.stat strong{display:block;margin:2px 0;font-size:30px;letter-spacing:-1.2px}.stat small{font-size:11px;color:#96a0b3}.bar{height:8px;background:#dce2f2;border-radius:100px;overflow:hidden;margin-top:17px}.bar>span{display:block;height:100%;width:0;background:linear-gradient(90deg,#4054d3,#7d91ff);transition:width .25s}.barline{font-size:12px;color:var(--sub);text-align:right;margin:7px 0 17px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 20px}.tab{border:1px solid #dfe5f0;color:#54617b;background:white;font-size:13px;padding:12px 18px;border-radius:12px;font-weight:800}.tab.on{border-color:#1c2d55;color:white;background:#1c2d55}.view{display:none}.view.on{display:block}.studygrid{display:grid;grid-template-columns:minmax(0,1fr) 255px;gap:18px}.surface{background:white;border-radius:20px;border:1px solid var(--line);box-shadow:0 4px 14px #1c2e4b08;padding:19px}.flexline{display:flex;justify-content:space-between;gap:10px;align-items:center}.sectiontitle{margin:0;font-size:17px;letter-spacing:-.5px}.hint{color:var(--sub);font-size:12px}.modes{display:flex;gap:7px;flex-wrap:wrap;margin:14px 0}.pill{background:#f4f6fc;color:#56647f;border:1px solid #e0e6f2;border-radius:10px;padding:8px 11px;font-size:12px;font-weight:750}.pill.active{background:#e9edff;border-color:#b9c3ff;color:#3852c6}.selector{display:flex;align-items:center;gap:9px;margin:15px 0 13px}.selector select{min-width:0;flex:1;background:white;padding:10px 12px;border:1px solid #dfe4ee;border-radius:10px;color:#40506c;font-weight:680;font-size:12px}.cardholder{perspective:1300px}.flash{position:relative;display:block;width:100%;height:320px;border:0;border-radius:23px;background:none;padding:0;text-align:inherit}.inner{width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform .4s;box-shadow:var(--shadow);border-radius:23px}.flash.revealed .inner{transform:rotateY(180deg)}.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:23px;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:32px 28px;text-align:center}.front{background:linear-gradient(145deg,#162641,#344774);color:#fff}.back{background:#fafaff;border:2px solid #cfd8fa;transform:rotateY(180deg)}.facelabel{font-size:11px;position:absolute;top:18px;left:22px;opacity:.75;font-weight:800}.faceno{font-size:11px;position:absolute;top:18px;right:22px;opacity:.75}.big{font-size:clamp(22px,3.1vw,32px);font-weight:820;line-height:1.42;letter-spacing:-.7px;word-break:keep-all}.back .big{color:#273c77}.cardfoot{font-size:11px;position:absolute;bottom:17px;opacity:.66}.empty{min-height:320px;border-radius:20px;background:#f7f9ff;border:1px dashed #cbd4e9;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:28px;gap:9px}.empty strong{font-size:19px}.empty p{font-size:13px;color:#77829b;max-width:360px;margin:0}.actionbar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px}.actionbar .group{display:flex;gap:7px;flex-wrap:wrap}.minibtn{background:white;border:1px solid #dfe4ee;color:#4d5b76;border-radius:10px;padding:10px 13px;font-size:12px;font-weight:760}.ratings{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:14px}.rate{border:0;border-radius:12px;min-height:58px;font-weight:820;font-size:14px}.miss{background:#ffedf0;color:#b24759}.yes{background:linear-gradient(110deg,#4058db,#697df1);color:white}.helper{margin:11px 0 0;text-align:center;color:var(--sub);font-size:12px;min-height:19px}.infoitem{padding:13px 12px;background:#f4f6ff;color:#58658e;border-radius:12px;font-size:12px;line-height:1.7;margin-top:10px}.infoitem strong{color:#364ba7}.sidehead{margin:0 0 9px;font-size:14px}.side-list{display:grid;gap:7px}.sidechoice{width:100%;display:flex;justify-content:space-between;align-items:center;background:white;border:1px solid #e1e5ee;border-radius:10px;padding:12px;font-size:12px;font-weight:750;color:#4a5570}.sidechoice.active{background:#e9efff;border-color:#c3ccff;color:#3650bd}.sidechoice b{font-size:11px;background:#f1f4fb;border-radius:6px;padding:3px 7px}.footnote{color:#8f99ad;font-size:11px;line-height:1.7;text-align:center;margin:22px 0}
+.quizmain{max-width:740px;margin:0 auto}.quizopts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}.answer{border:1px solid #dfe5ef;background:#fff;color:#263653;border-radius:13px;padding:16px 13px;text-align:left;min-height:81px;font-size:14px;font-weight:740}.answer.correct{background:#e1f7ea;border-color:#7ecda2;color:#136a45}.answer.wrong{background:#fff0f0;border-color:#f5a1a1;color:#ae323b}.prompt{background:#192946;color:white;border-radius:19px;padding:36px 22px;text-align:center;min-height:193px;display:flex;align-items:center;justify-content:center;font-size:clamp(22px,3.5vw,31px);font-weight:830;line-height:1.4;word-break:keep-all}.quizfeedback{margin:12px 0;padding:15px;border-radius:12px;background:#eef2ff;color:#31487a;font-weight:680;font-size:13px}.quizfeedback:empty{display:none}.primary{border:0;border-radius:12px;background:#3e56dc;color:white;font-weight:800;padding:13px 17px}.secondary{border:1px solid #dfe5f0;background:white;color:#455571;border-radius:12px;font-weight:750;padding:12px 15px}.wide{width:100%}.formrow{display:grid;grid-template-columns:1fr 1fr auto;gap:9px}.field{min-width:0;border:1px solid #dfe6f0;border-radius:10px;padding:12px 13px;background:#fcfdff;font-size:13px}.textinput{width:100%;min-height:135px;resize:vertical;line-height:1.6}.guide{background:#f3f6ff;color:#58698a;border-radius:13px;padding:15px;font-size:12px;line-height:1.75}.guide code{background:#e3eaff;padding:3px;border-radius:4px}.savedList{max-height:420px;overflow:auto;border:1px solid #e5e9f2;border-radius:13px;margin-top:12px}.savedItem{padding:12px 14px;border-bottom:1px solid #e9ecf3;display:flex;justify-content:space-between;align-items:center;gap:10px}.savedItem:last-child{border:0}.savedItem strong{display:block;font-size:13px}.savedItem small{display:block;font-size:11px;color:var(--sub);margin-top:5px}.savedItem button{background:white;color:#64728b;border:1px solid #dce1ec;border-radius:9px;padding:7px 9px;font-size:11px;font-weight:700}.flexwrap{display:flex;gap:9px;flex-wrap:wrap}.toast{position:fixed;left:50%;bottom:24px;max-width:calc(100vw - 28px);transform:translateX(-50%);background:#1d2d4e;color:white;box-shadow:var(--shadow);padding:12px 17px;border-radius:12px;font-size:13px;font-weight:700;z-index:99;opacity:0;pointer-events:none;transition:opacity .2s}.toast.show{opacity:1}
+@media(max-width:760px){main{padding:23px 13px 72px}.topin{padding:12px 15px;min-height:64px}.titlebar h1{font-size:28px}.chip{display:none}.stats{gap:8px}.stat{padding:12px 10px;border-radius:13px}.stat strong{font-size:24px}.stat label{font-size:11px}.stat small{font-size:10px}.studygrid{grid-template-columns:1fr}.side{order:2}.surface{padding:15px}.flash{height:310px}.formrow{grid-template-columns:1fr}.formrow button{min-height:45px}.tabs{flex-wrap:nowrap;overflow:auto}.tab{white-space:nowrap;padding:11px 14px}.quizopts{grid-template-columns:1fr}.answer{min-height:55px}.actionbar{flex-wrap:wrap}.actionbar .group{flex-wrap:nowrap}.minibtn{padding:9px 11px}}
+@media(max-width:390px){.logo{font-size:13px}.topbutton{padding:7px 8px}.flash{height:295px}.face{padding:33px 19px}.big{font-size:22px}.actionbar{justify-content:center}.stats{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<header class="top"><div class="topin"><div class="logo"><span class="logoicon">A</span><span>나의 미국식 영어 표현장<span class="logosub" style="display:block">MY NATURAL ENGLISH</span></span></div><div style="display:flex;gap:6px;flex-wrap:wrap"><button class="topbutton" id="syncBtn">↻ 최신 표현 확인</button><button class="topbutton" id="headerImport">＋ 표현 추가</button></div></div></header>
+<main><div class="titlebar"><div><div class="eyebrow">MY PERSONAL PHRASEBOOK</div><h1>오늘도 미국식 영어 한 문장</h1><p>직접 말하고 교정받은 영어 표현을 꾸준히 복습해요. · 새 표현 자동 업데이트 · 기존 학습 기록 유지</p></div><span class="chip">온라인 동기화 · 자동 반영</span></div>
+<section class="stats" aria-label="학습 현황"><div class="stat"><label>전체 표현</label><strong id="nTotal">83</strong><small>누적 등록</small></div><div class="stat"><label>외울 표현</label><strong id="nTodo">83</strong><small>새 표현 + 미암기</small></div><div class="stat"><label>익힌 표현</label><strong id="nMaster">0</strong><small>두 달 뒤 복습</small></div><div class="stat"><label>복습할 표현</label><strong id="nDue">0</strong><small>복습일 도착</small></div></section><div class="bar"><span id="progress"></span></div><p class="barline" id="progressLabel">암기 현황 0%</p>
+<nav class="tabs" aria-label="학습 메뉴"><button class="tab on" data-tab="flash">플래시카드</button><button class="tab" data-tab="quiz">4지선다 퀴즈</button><button class="tab" data-tab="add">표현 추가·관리</button><button class="tab" data-tab="record">학습 기록</button></nav>
+<section class="view on" id="v-flash"><div class="studygrid"><div class="surface"><div class="flexline"><h2 class="sectiontitle" id="flashTitle">외울 표현</h2><span class="hint" id="flashPosition">1 / 83</span></div><div class="modes" id="flashModes"></div><div class="selector"><label class="hint" for="dayFilter">표현 묶음</label><select id="dayFilter"><option value="all">전체 날짜</option></select><button class="minibtn" id="directionBtn">한 → 영</button></div><div class="cardholder" id="cardholder"></div><div class="actionbar"><div class="group"><button class="minibtn" id="skipBtn">다음 표현 →</button></div><div class="group"><button class="minibtn" id="speechBtn">🔊 발음</button><button class="minibtn" id="shuffleBtn">⇄ 섞기</button></div></div><div class="ratings"><button class="rate miss" id="missBtn">↻ 다시 볼래요</button><button class="rate yes" id="knowBtn">✓ 기억했어요</button></div><p class="helper" id="cardHelp">카드를 눌러 표현을 확인하세요.</p></div><aside class="surface side"><h3 class="sidehead">암기 모드</h3><div class="side-list" id="sideModes"></div><div class="infoitem"><strong>기억했어요</strong> → 일반 학습 목록에서 제외되고 두 달 뒤 복습에 표시돼요.<br/><strong>다시 볼래요</strong> → 다른 표현을 학습한 후 다시 등장해요.</div><div class="infoitem">익힌 표현과 새로 추가한 문장은 브라우저에 저장됩니다. 기기를 바꾸거나 파일을 옮길 땐 기록을 백업해 주세요.</div></aside></div></section>
+<section class="view" id="v-quiz"><div class="surface quizmain"><div class="flexline"><h2 class="sectiontitle">영어 표현 퀴즈</h2><span class="hint" id="quizStatus">준비됨</span></div><div class="modes"><button class="pill active" data-qdir="ko-en">한국어 → 영어</button><button class="pill" data-qdir="en-ko">영어 → 한국어</button></div><p class="hint">퀴즈에 정답을 맞히면 익힌 표현으로 저장됩니다. 틀리면 나중에 다시 출제돼요.</p><div class="prompt" id="quizPrompt">퀴즈를 시작해 보세요.</div><div class="quizopts" id="quizOpts"></div><p class="quizfeedback" id="quizFeedback" aria-live="polite"></p><button class="primary wide" id="quizNext">퀴즈 시작</button></div></section>
+<section class="view" id="v-add"><div class="surface"><div class="flexline"><h2 class="sectiontitle">새 표현 등록</h2><span class="hint">이 앱에서 직접 추가한 표현은 저장돼요</span></div><p class="hint">ChatGPT가 오늘의 영어 표현을 정리해 주면 아래 칸에 복사해서 넣으세요. 이미 있는 표현은 자동으로 제외해요.</p><div class="formrow"><input class="field" id="singleKo" placeholder="한국어 뜻"/><input class="field" id="singleEn" placeholder="미국식 영어 표현"/><button class="primary" id="singleAdd">＋ 한 개 추가</button></div><div style="height:18px"></div><h3 class="sidehead">표현 여러 개 한 번에 추가</h3><div class="guide">한 줄에 <strong>영어 표현 | 한국어 뜻</strong> 순서로 붙여넣기<br/>예: <code>I'm running late. | 나 늦고 있어.</code><br/>탭(Tab) 구분이나 JSON 배열 형식도 지원해요.</div><textarea class="field textinput" id="batchText" placeholder="I'm getting the hang of it. | 이제 요령이 생기는 것 같아.&#10;It slipped my mind. | 깜빡 잊었어."></textarea><div class="flexwrap" style="margin-top:10px"><button class="primary" id="batchAdd">새 표현 일괄 추가</button><button class="secondary" id="pasteClip">클립보드 붙여넣기</button></div><h3 style="margin:26px 0 9px;font-size:15px">등록된 표현 찾기</h3><input class="field" style="width:100%" id="search" placeholder="영어·한국어·주제로 검색"/><div class="savedList" id="savedList"></div></div></section>
+<section class="view" id="v-record"><div class="surface"><h2 class="sectiontitle">나의 학습 기록</h2><p class="hint">기억한 표현은 두 달 뒤 다시 확인하고, 못 외운 표현은 계속 학습 목록에 남습니다.</p><div class="stats" style="margin-top:20px"><div class="stat"><label>오늘 응답</label><strong id="todayAnswers">0</strong><small>오늘 학습 횟수</small></div><div class="stat"><label>전체 응답</label><strong id="allAnswers">0</strong><small>누적 응답 수</small></div><div class="stat"><label>기억한 표현</label><strong id="learnedCount">0</strong><small>복습 예약</small></div><div class="stat"><label>미암기 표현</label><strong id="remainingCount">83</strong><small>계속 학습</small></div></div><h3 class="sidehead" style="margin-top:25px">백업 및 복원</h3><p class="hint">학습 기록을 옮길 때 사용해요. 이전 영어 앱에서 만든 JSON 백업도 복원할 수 있어요.</p><div class="flexwrap"><button class="secondary" id="backupBtn">↓ 기록 백업</button><button class="secondary" id="restoreBtn">↑ 기록 복원</button><button class="secondary" id="resetBtn">학습 기록 초기화</button></div><input type="file" accept="application/json,.json" id="restoreFile" hidden/><div class="infoitem" style="margin-top:20px"><strong>새로운 표현은 이 앱을 열 때 온라인에서 자동 확인</strong>합니다. 표현 카드 데이터는 서버에서 읽어 오며 파일을 교체할 필요가 없어요. 암기 기록은 지금 기기의 브라우저에 저장됩니다. 기기 변경 전에는 기록을 백업하세요.</div></div></section>
+<p class="footnote">My Natural English · 표현 목록 자동 갱신 · 학습 기록은 이 기기에 저장<br/>앱 주소를 바꾸거나 브라우저 데이터를 삭제하면 기록이 사라질 수 있으니 백업해 주세요.</p></main><div class="toast" id="toast" role="status"></div>
+<script>
+const BASE=[
+["d5-01","So far, so good!","지금까지는 괜찮아!","2026-11-03","일상"],
+["d5-02","Things are looking up.","상황이 점점 나아지고 있어.","2026-11-03","일상"],
+["d5-03","I've been keeping a close eye on the Nasdaq lately.","요즘 나스닥을 예의주시하고 있어.","2026-11-03","투자"],
+["d5-04","AI bubble fears and the midterms are weighing on the market.","AI 거품 우려와 중간선거가 시장에 부담을 주고 있어.","2026-11-03","투자"],
+["d5-05","I'm just sitting tight for now.","지금은 일단 관망하고 있어.","2026-11-03","투자"],
+["d5-06","If the Nasdaq drops 20%, I'm gonna buy the dip.","나스닥이 20% 떨어지면 저가 매수할 거야.","2026-11-03","투자"],
+["d5-07","I'd put it all in at once.","나라면 투자금을 한 번에 전부 넣을 거야.","2026-11-03","투자"],
+["d5-08","I'm in it for the long haul.","난 장기적으로 투자하고 있어.","2026-11-03","투자"],
+["d5-09","I'll just ride it out.","그냥 버티면서 지나가길 기다릴 거야.","2026-11-03","투자"],
+["d5-10","I got into investing about four years ago.","약 4년 전에 투자를 시작했어.","2026-11-03","투자"],
+["d5-11","Alright, everyone! Eyes on me, please!","자, 여러분! 선생님을 봐 주세요.","2026-11-03","교실 영어"],
+["d5-12","Can I have your attention, please?","모두 집중해 줄래요?","2026-11-03","교실 영어"],
+["d5-13","Settle down, everyone.","여러분, 조용히 하고 진정하세요.","2026-11-03","교실 영어"],
+["d5-14","Turn to page 45 and take a look at the picture.","45쪽을 펴고 그림을 한번 보세요.","2026-11-03","교실 영어"],
+["d5-15","Work with a partner.","짝과 함께 활동하세요.","2026-11-03","교실 영어"],
+["d5-16","Who wants to give it a try?","누가 한번 해 볼래요?","2026-11-03","교실 영어"],
+["d5-17","Listen carefully and repeat after me.","잘 듣고 따라 말하세요.","2026-11-03","교실 영어"],
+["d5-18","Let's wrap things up.","이제 마무리합시다.","2026-11-03","교실 영어"],
+['d4-01',"This week sucked. I don't even wanna think about it.",'이번 주 진짜 최악이었어. 생각조차 하기 싫어.','2026-10-30','힘든 한 주'],
+['d4-02',"It's been a rough week, both at work and at home.",'이번 주는 직장에서도 집에서도 정말 힘들었어.','2026-10-30','힘든 한 주'],
+['d4-03',"I've been dealing with a lot lately.",'요즘 이런저런 일로 힘들어.','2026-10-30','힘든 한 주'],
+['d4-04',"I messed up a student's tournament registration.",'학생의 대회 참가 신청을 실수했어.','2026-10-30','직장'],
+['d4-05',"But there's more to the story.",'하지만 여기에는 다른 사정도 있어.','2026-10-30','직장'],
+['d4-06',"I feel like I was unfairly blamed.",'억울하게 비난받은 것 같아.','2026-10-30','감정'],
+['d4-07',"The registration process was pretty informal, so I got the wrong idea.",'신청 과정이 꽤 비공식적이어서 내가 잘못 이해했어.','2026-10-30','직장'],
+['d4-08',"There was a misunderstanding.",'오해가 있었어.','2026-10-30','직장'],
+['d4-09',"I thought his Go academy had already signed him up.",'난 바둑학원에서 이미 그 학생을 신청한 줄 알았어.','2026-10-30','직장'],
+['d4-10',"Even so, she was still really upset.",'그럼에도 그녀는 여전히 정말 화가 나 있었어.','2026-10-30','감정'],
+['d4-11',"I ended up apologizing to her.",'결국 그분께 사과하게 됐어.','2026-10-30','직장'],
+['d4-12',"It seemed like the best thing to do.",'그게 최선인 것 같았어.','2026-10-30','판단'],
+['d4-13',"I thought it was all over, but she ended up filing a formal complaint.",'다 끝난 줄 알았는데 결국 공식 민원을 넣었어.','2026-10-30','직장'],
+['d4-14',"The local education office called me.",'교육청에서 나에게 전화했어.','2026-10-30','직장'],
+['d4-15',"As far as I'm concerned, it's over.",'적어도 내 입장에서는 이제 끝난 일이야.','2026-10-30','감정'],
+['d4-16',"I've put the whole thing behind me.",'난 이제 그 일을 털어버렸어.','2026-10-30','감정'],
+['d4-17',"Let me explain my side of the story.",'내 입장에서 있었던 일을 설명해 볼게.','2026-10-30','회화'],
+['d4-18',"Clear up a misunderstanding.",'오해를 풀다.','2026-10-30','회화'],
+['d3-01','I wanna sound like a native speaker.','원어민처럼 자연스럽게 말하고 싶어.','2026-10-27','학습 목표'],
+['d3-02','I wanna get better at English.','영어를 더 잘하고 싶어.','2026-10-27','학습 목표'],
+['d3-03','I teach fifth grade.','나는 5학년을 가르쳐.','2026-10-27','직업'],
+['d3-04','The best part is having time to work on myself.','가장 좋은 점은 자기계발할 시간이 있다는 거야.','2026-10-27','자기계발'],
+['d3-05',"I'm learning Japanese, too.",'나 일본어도 배우고 있어.','2026-10-27','언어'],
+['d3-06','I feel like Japanese is easier than English.','일본어가 영어보다 쉬운 것 같아.','2026-10-27','의견'],
+['d3-07','We have a lot in common.','우리는 공통점이 많아.','2026-10-27','의견'],
+['d3-08',"I'm a planner.",'나는 계획적인 사람이야.','2026-10-27','성격'],
+['d3-09','I like to have things figured out ahead of time.','일을 미리 계획해 두는 걸 좋아해.','2026-10-27','성격'],
+['d3-10',"I get pretty stressed out when things don't go as planned.",'계획대로 일이 안 풀리면 스트레스를 꽤 받아.','2026-10-27','감정'],
+['d3-11',"I've been trying to make more time for my family.",'요즘 가족과 더 많은 시간을 보내려고 노력하고 있어.','2026-10-27','가족'],
+['d3-12',"Parenting is exhausting, but it's totally worth it.",'육아는 힘들지만 충분히 가치가 있어.','2026-10-27','육아'],
+['d3-13',"I think I'd get bored if I didn't have a job.",'직업이 없다면 지루해질 것 같아.','2026-10-27','가정'],
+['d3-14',"I'd just lounge around on the couch all day.",'그냥 하루 종일 소파에서 뒹굴거리며 쉴 거야.','2026-10-27','휴식'],
+['d3-15',"As long as I've gotten something done, I can relax guilt-free.",'할 일을 끝냈다면 죄책감 없이 쉴 수 있어.','2026-10-27','휴식'],
+['d2-01','Luckily, my little one only woke me up once last night.','다행히 막내가 어젯밤에 한 번만 깨웠어.','2026-10-24','가족'],
+['d2-02',"I don't get tired that easily.",'난 그렇게 쉽게 지치지 않아.','2026-10-24','성격'],
+['d2-03',"I'm a pretty tough guy.",'나 꽤 강한 사람이야.','2026-10-24','성격'],
+['d2-04','I just chill on the couch.','그냥 소파에서 느긋하게 쉬어.','2026-10-24','휴식'],
+['d2-05','I scroll through Instagram.','인스타그램을 둘러봐.','2026-10-24','취미'],
+['d2-06','I check my stock portfolio.','내 주식 포트폴리오를 확인해.','2026-10-24','취미'],
+['d2-07',"I've been trying to check my stocks less often.",'요즘 주식을 덜 확인하려고 노력 중이야.','2026-10-24','습관'],
+['d2-08',"It's better for my peace of mind.",'그래야 마음이 더 편해.','2026-10-24','감정'],
+['d2-09',"I'm gonna hop in the shower.",'샤워 좀 하고 올게.','2026-10-24','일상'],
+['d2-10','We all went shopping together.','우리 모두 함께 쇼핑하러 갔어.','2026-10-24','쇼핑'],
+['d2-11','I picked up a few vintage pieces.','빈티지 옷 몇 벌 건졌어.','2026-10-24','쇼핑'],
+['d2-12',"I got a great deal on some clothes I've had my eye on.",'눈여겨보던 옷을 좋은 가격에 건졌어.','2026-10-24','쇼핑'],
+['d1-01',"I'm really into AI these days.",'요즘 AI에 푹 빠져 있어.','2026-10-23','관심사'],
+['d1-02','I use it for both work and fun.','업무에도 쓰고 재미로도 사용해.','2026-10-23','관심사'],
+['d1-03','I make web apps for my students.','학생들을 위한 웹앱을 만들어.','2026-10-23','직업'],
+['d1-04','I mostly make games and stuff like that.','주로 게임이나 그런 비슷한 걸 만들어.','2026-10-23','직업'],
+['d1-05','The kids really get into it.','아이들이 정말 푹 빠져서 해.','2026-10-23','직업'],
+['d1-06',"Sometimes the apps just don't work.",'가끔 앱이 제대로 작동하지 않아.','2026-10-23','직업'],
+['d1-07','It was pretty embarrassing.','꽤 민망했어.','2026-10-23','감정'],
+['d1-08','Ask me about my life instead.','대신 내 일상에 관해 질문해 줘.','2026-10-23','회화'],
+['d1-09',"I've got two daughters.",'나 딸이 둘 있어.','2026-10-23','가족'],
+['d1-10','Do Americans always use proper grammar?','미국인들은 항상 정확한 문법을 사용해?','2026-10-23','회화'],
+['d1-11','How am I doing so far?','지금까지 나 얼마나 잘하고 있어?','2026-10-23','회화'],
+['d1-12','Tell me how Americans would say it.','미국인들은 어떻게 말하는지 알려줘.','2026-10-23','회화'],
+['d1-13','I used to be a night owl.','예전에는 올빼미형 인간이었어.','2026-10-23','성격'],
+['d1-14','Having kids turned me into a morning person.','아이들이 생기면서 아침형 인간이 됐어.','2026-10-23','가족'],
+['d1-15','My little one woke me up three times last night.','막내가 어젯밤에 나를 세 번이나 깨웠어.','2026-10-23','가족'],
+['d1-16','I was so cranky.','너무 짜증 나고 예민했어.','2026-10-23','감정'],
+['d1-17','I take over when I get home from work.','퇴근해서 집에 오면 내가 육아를 넘겨받아.','2026-10-23','가족'],
+['d1-18',"My wife handles the kids while I'm at work.",'내가 일하는 동안 아내가 아이들을 돌봐.','2026-10-23','가족'],
+['d1-19','I barely get any me time.','나만의 시간이 거의 없어.','2026-10-23','휴식'],
+['d1-20',"Let's call it a day.",'오늘은 여기까지 하자.','2026-10-23','회화']
+].map(([id,en,ko,day,tag])=>({id,en,ko,day,tag}));
+const KEY='my-american-english-flashcards-v1';
+const $=id=>document.getElementById(id), $$=s=>Array.from(document.querySelectorAll(s));
+function dayText(){const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-')}
+const initial=()=>({version:2,records:{},custom:[],log:[]});
+function load(){try{const v=JSON.parse(localStorage.getItem(KEY));if(v&&typeof v==='object')return {...initial(),...v,custom:Array.isArray(v.custom)?v.custom:[],records:v.records&&typeof v.records==='object'?v.records:{},log:Array.isArray(v.log)?v.log:[]}}catch(e){}return initial()}
+let app=load();
+// Move previously hand-added cards into the same built-in IDs without losing progress.
+function migrateExistingRecords(){
+  const fixed=new Map(BASE.map(c=>[String(c.en).normalize('NFKC').toLowerCase().replace(/[\u2018\u2019]/g,"'").replace(/[.!?]+$/,'').replace(/\s+/g,' ').trim(),c.id]));
+  const retained=[];let changed=false;
+  for(const c of app.custom){
+    const key=String(c.en||'').normalize('NFKC').toLowerCase().replace(/[\u2018\u2019]/g,"'").replace(/[.!?]+$/,'').replace(/\s+/g,' ').trim();
+    const stable=fixed.get(key);
+    if(!stable){retained.push(c);continue;}
+    changed=true;
+    if(app.records[c.id]){
+      const old=app.records[c.id],cur=app.records[stable];
+      if(!cur || (old.last||0)>(cur.last||0)) app.records[stable]=old;
+      delete app.records[c.id];
+    }
+    for(const line of app.log){if(line.id===c.id)line.id=stable;}
+  }
+  if(changed){app.custom=retained;try{localStorage.setItem('my-american-english-flashcards-v1',JSON.stringify(app));}catch(e){}}
+}
+migrateExistingRecords();
+let currentTab='flash', mode='learn' , filterDay='all', reversed=false, cardShown=false, qdir='ko-en', quizCard=null, quizLocked=false, quizCounter=0, quizOptions=[], flashQueue=[], missedQueue=[], quizQueue=[], quizMissed=[];
+function allCards(){return BASE.concat(app.custom.filter(c=>c&&typeof c.en==='string'&&typeof c.ko==='string'))}
+function rec(id){return app.records[id]||{state:'new',seen:0,due:0}}
+function isMaster(c){return rec(c.id).state==='mastered'}
+function due(c){return isMaster(c)&&Number(rec(c.id).due||0)<=Date.now()}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(app))}catch(e){notify('저장에 실패했어요. 브라우저 설정을 확인하세요.')}}
+function notify(s){const el=$('toast');el.textContent=s;el.classList.add('show');clearTimeout(notify.timer);notify.timer=setTimeout(()=>el.classList.remove('show'),2700)}
+function changeTab(tab){currentTab=tab;$$('[data-tab]').forEach(b=>b.classList.toggle('on',b.dataset.tab===tab));$$('.view').forEach(v=>v.classList.toggle('on',v.id==='v-'+tab));if(tab==='add')renderSaved();if(tab==='quiz'){if(!quizCard)startQuiz()}else if(tab==='flash')renderFlash();else if(tab==='record')renderStats()}
+$$('[data-tab]').forEach(b=>b.addEventListener('click',()=>changeTab(b.dataset.tab)));
+$('headerImport').onclick=()=>{changeTab('add');$('batchText').focus()};
+function normalize(s){return String(s||'').normalize('NFKC').toLowerCase().replace(/[\u2018\u2019]/g,"'").replace(/[.!?]+$/,'').replace(/\s+/g,' ').trim()}
+function stats(){const all=allCards();const mastered=all.filter(isMaster).length;return {total:all.length,mastered,remaining:all.length-mastered,due:all.filter(due).length}}
+function renderStats(){const s=stats();$('nTotal').textContent=s.total;$('nTodo').textContent=s.remaining;$('nMaster').textContent=s.mastered;$('nDue').textContent=s.due;let pct=s.total?Math.round(s.mastered/s.total*100):0;$('progress').style.width=pct+'%';$('progressLabel').textContent='암기 현황 '+pct+'% · '+s.mastered+' / '+s.total+'개 익힘';$('todayAnswers').textContent=app.log.filter(x=>x.date===dayText()).length;$('allAnswers').textContent=app.log.length;$('learnedCount').textContent=s.mastered;$('remainingCount').textContent=s.remaining}
+function filtered(){return allCards().filter(c=>filterDay==='all'||c.day===filterDay)}
+function optionsForMode(){const sc=filtered();return {learn:sc.filter(c=>!isMaster(c)),review:sc.filter(due),all:sc,mastered:sc.filter(isMaster)}}
+function switchMode(v){mode=v;initFlash();renderFlash()}
+function renderModes(){const labels={learn:'외울 표현',review:'복습할 표현',all:'전체 표현',mastered:'익힌 표현'};const pools=optionsForMode();const container=$('flashModes'), side=$('sideModes');container.replaceChildren();side.replaceChildren();Object.keys(labels).forEach(key=>{const btn=document.createElement('button');btn.className='pill'+(key===mode?' active':'');btn.textContent=labels[key]+' '+pools[key].length;btn.onclick=()=>switchMode(key);container.appendChild(btn);const b=document.createElement('button');b.className='sidechoice'+(key===mode?' active':'');let tx=document.createElement('span');tx.textContent=labels[key];let n=document.createElement('b');n.textContent=pools[key].length+'개';b.append(tx,n);b.onclick=()=>switchMode(key);side.appendChild(b)});$('flashTitle').textContent=labels[mode]}
+function dateOptions(){const current=$('dayFilter').value||filterDay;const ds=[...new Set(allCards().map(c=>c.day))].sort().reverse();$('dayFilter').replaceChildren();const a=document.createElement('option');a.value='all';a.textContent='모든 날짜';$('dayFilter').append(a);ds.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d; $('dayFilter').append(o)});if(!ds.includes(filterDay))filterDay='all';$('dayFilter').value=filterDay}
+function mix(list){const a=[...list];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function initFlash(shuffle=false){flashQueue=optionsForMode()[mode].map(c=>c.id);if(shuffle)flashQueue=mix(flashQueue);missedQueue=[];cardShown=false}
+function nowCard(){let pool=new Set(optionsForMode()[mode].map(c=>c.id));flashQueue=flashQueue.filter(id=>pool.has(id));if(!flashQueue.length&&missedQueue.length){flashQueue=[...new Set(missedQueue)].filter(id=>pool.has(id));missedQueue=[]}if(!flashQueue.length)return null;return allCards().find(c=>c.id===flashQueue[0])||null}
+function renderFlash(){renderStats();renderModes();dateOptions();const c=nowCard(), holder=$('cardholder');holder.replaceChildren();$('flashPosition').textContent=c?'남은 '+(flashQueue.length+missedQueue.length)+'개':'0개';$('speechBtn').disabled=!c;$('skipBtn').disabled=!c;$('shuffleBtn').disabled=!c;$('missBtn').disabled=!c||!cardShown;$('knowBtn').disabled=!c||!cardShown;$('directionBtn').textContent=reversed?'영 → 한':'한 → 영';$('cardHelp').textContent=c?(cardShown?'기억 여부를 선택하세요.':'카드를 눌러 정답을 확인하세요.'):'다른 학습 모드를 선택하거나 새 표현을 추가해 보세요.';
+if(!c){const el=document.createElement('div');el.className='empty';let h=document.createElement('strong');h.textContent=mode==='learn'?'외울 표현이 모두 정리됐어요!':mode==='review'?'오늘 복습할 표현이 없어요':'표시할 표현이 없어요';let p=document.createElement('p');p.textContent=mode==='review'?'기억한 표현은 2개월 뒤에 다시 표시됩니다.':'전체 표현 또는 다른 날짜를 선택해 보세요.';el.append(h,p);holder.append(el);return}
+const b=document.createElement('button');b.className='flash'+(cardShown?' revealed':'');b.setAttribute('aria-label','카드를 눌러 뒤집기');b.onclick=()=>{cardShown=!cardShown;renderFlash()};const inner=document.createElement('div');inner.className='inner';[["front",reversed?c.en:c.ko,reversed?'ENGLISH':'KOREAN'],['back',reversed?c.ko:c.en,reversed?'KOREAN':'NATURAL ENGLISH']].forEach(([side,text,lbl])=>{const face=document.createElement('div');face.className='face '+side;const meta=document.createElement('div');meta.className='facelabel';meta.textContent=lbl;const no=document.createElement('div');no.className='faceno';no.textContent=c.tag||'표현';const main=document.createElement('div');main.className='big';main.textContent=text;const note=document.createElement('div');note.className='cardfoot';note.textContent='↻ 탭해서 뒤집기';face.append(meta,no,main,note);inner.append(face)});b.append(inner);holder.append(b)}
+function afterGrade(id,success){const old=rec(id),n=Date.now(),d=new Date(n);d.setHours(12,0,0,0);const day=d.getDate();d.setDate(1);d.setMonth(d.getMonth()+2);const max=new Date(d.getFullYear(),d.getMonth()+1,0).getDate();d.setDate(Math.min(day,max));app.records[id]={state:success?'mastered':'learning',due:success?d.getTime():n,seen:(old.seen||0)+1,last:n};app.log.push({id,success,date:dayText(),time:n});if(app.log.length>5000)app.log=app.log.slice(-5000);save()}
+function gradeFlash(success){const c=nowCard();if(!c||!cardShown)return;flashQueue.shift();afterGrade(c.id,success);if(!success&&mode==='learn')missedQueue.push(c.id);if(mode==='all')missedQueue.push(c.id);cardShown=false;renderFlash();notify(success?'익힌 표현으로 저장했어요. 2개월 뒤 복습해요.':'기억 못한 표현은 뒤에 다시 나와요.')}
+$('missBtn').onclick=()=>gradeFlash(false);$('knowBtn').onclick=()=>gradeFlash(true);$('skipBtn').onclick=()=>{if(flashQueue.length>1){flashQueue.push(flashQueue.shift());cardShown=false;renderFlash()}else if(flashQueue.length){notify('마지막 카드예요. 외웠는지 선택해 주세요.')}};$('shuffleBtn').onclick=()=>{initFlash(true);renderFlash();notify('카드를 섞었어요.')};$('directionBtn').onclick=()=>{reversed=!reversed;cardShown=false;renderFlash()};$('dayFilter').onchange=e=>{filterDay=e.target.value;initFlash();renderFlash()};
+function speak(){const c=nowCard();if(!c)return;if(!('speechSynthesis' in window)){notify('이 브라우저는 발음 재생을 지원하지 않아요.');return}speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(c.en);u.lang='en-US';u.rate=.87;const vs=speechSynthesis.getVoices();u.voice=vs.find(x=>x.lang.toLowerCase()==='en-us')||vs.find(x=>x.lang.startsWith('en'))||null;speechSynthesis.speak(u)}$('speechBtn').onclick=speak;
+function eligibleQuiz(){return allCards().filter(c=>!isMaster(c))}
+function startQuiz(){quizQueue=mix(eligibleQuiz().map(c=>c.id));quizMissed=[];quizCard=null;quizCounter=0;advanceQuiz()}
+function advanceQuiz(){if(!quizQueue.length&&quizMissed.length){quizQueue=mix([...new Set(quizMissed)]);quizMissed=[]}let allowed=new Set(eligibleQuiz().map(c=>c.id));quizQueue=quizQueue.filter(x=>allowed.has(x));if(!quizQueue.length){quizCard=null;quizLocked=false;renderQuiz();return}const nextId=quizQueue.shift();quizCard=allCards().find(c=>c.id===nextId);quizLocked=false;quizCounter++;const pool=allCards().filter(c=>c.id!==quizCard.id);quizOptions=mix([quizCard,...mix(pool).slice(0,3)]);renderQuiz()}
+function renderQuiz(){const opts=$('quizOpts');opts.replaceChildren();$('quizFeedback').textContent='';if(!quizCard){$('quizPrompt').textContent='오늘 학습할 표현이 없어요!';$('quizStatus').textContent='학습 완료';$('quizNext').textContent='새로 시작';return} $('quizStatus').textContent=quizCounter+'번째 문제';$('quizPrompt').textContent=qdir==='ko-en'?quizCard.ko:quizCard.en;quizOptions.forEach(c=>{const btn=document.createElement('button');btn.className='answer';btn.textContent=qdir==='ko-en'?c.en:c.ko;btn.onclick=()=>chooseQuiz(c.id);opts.append(btn)});$('quizNext').textContent=quizLocked?'다음 문제 →':'건너뛰기 →'}
+function chooseQuiz(chosen){if(quizLocked||!quizCard)return;const correct=chosen===quizCard.id;quizLocked=true;afterGrade(quizCard.id,correct);if(!correct)quizMissed.push(quizCard.id);$$('.answer').forEach((b,i)=>{b.disabled=true;const id=quizOptions[i].id;if(id===quizCard.id)b.classList.add('correct');else if(id===chosen)b.classList.add('wrong')});$('quizFeedback').textContent=correct?'정답! 익힌 표현으로 저장했어요. 2개월 뒤 복습해요.':'아쉬워요. 정답: '+(qdir==='ko-en'?quizCard.en:quizCard.ko)+' · 나중에 다시 나와요.';$('quizNext').textContent='다음 문제 →';renderStats()}
+$('quizNext').onclick=()=>{if(!quizCard)startQuiz();else if(quizLocked)advanceQuiz();else{quizQueue.push(quizCard.id);advanceQuiz()}};$$('[data-qdir]').forEach(b=>b.onclick=()=>{qdir=b.dataset.qdir;$$('[data-qdir]').forEach(x=>x.classList.toggle('active',x.dataset.qdir===qdir));startQuiz()});
+function dedupAdd(items){let seen=new Set(allCards().map(c=>normalize(c.en)));let added=0,duplicated=0,invalid=0;for(const input of items){const en=String(input.en||input.english||'').trim(),ko=String(input.ko||input.korean||'').trim();if(!en||!ko||en.length>400||ko.length>400){invalid++;continue}let k=normalize(en);if(seen.has(k)){duplicated++;continue}const day=/^\d{4}-\d{2}-\d{2}$/.test(input.day)?input.day:dayText();const id='user-'+Date.now()+'-'+Math.random().toString(36).slice(2,10);app.custom.push({id,en,ko,day,tag:input.tag||'추가 표현'});seen.add(k);added++}if(added){save();initFlash();renderFlash();renderSaved();renderStats()}return{added,duplicated,invalid}}
+$('singleAdd').onclick=()=>{const {added,duplicated}=dedupAdd([{en:$('singleEn').value,ko:$('singleKo').value}]);if(added){$('singleEn').value='';$('singleKo').value='';notify('표현 1개를 추가했어요.')}else notify(duplicated?'이미 등록된 표현이에요.':'영어와 한국어 뜻을 입력해 주세요.')};
+function parseBulk(input){const s=input.trim();if(!s)return[];try{const arr=JSON.parse(s);if(Array.isArray(arr))return arr.map(c=>Array.isArray(c)?{en:c[0],ko:c[1]}:c);if(arr&&Array.isArray(arr.cards))return arr.cards}catch(e){}const items=[];s.split(/\r?\n/).forEach(line=>{const sep=line.includes('\t')?'\t':'|';const pieces=line.split(sep);if(pieces.length>=2)items.push({en:pieces[0].trim(),ko:pieces.slice(1).join(sep).trim()})});return items}
+$('batchAdd').onclick=()=>{const arr=parseBulk($('batchText').value);if(!arr.length){notify('영어 | 한국어 형식으로 입력해 주세요.');return}const {added,duplicated,invalid}=dedupAdd(arr);notify(`${added}개 추가 · 중복 ${duplicated}개 · 형식 오류 ${invalid}개`);if(added)$('batchText').value=''};
+$('pasteClip').onclick=async()=>{try{$('batchText').value=await navigator.clipboard.readText();notify('붙여넣었어요. 추가 버튼을 눌러 주세요.')}catch(e){notify('여기서는 자동 붙여넣기가 제한돼요. 길게 눌러 붙여넣어 주세요.')}};
+function renderSaved(){const term=normalize($('search').value);const list=allCards().filter(c=>normalize(c.en+' '+c.ko+' '+c.tag).includes(term));const holder=$('savedList');holder.replaceChildren();list.forEach(c=>{const row=document.createElement('div');row.className='savedItem';const text=document.createElement('div');const a=document.createElement('strong');a.textContent=c.en;const b=document.createElement('small');b.textContent=c.ko+' · '+c.day+(isMaster(c)?' · 암기 완료':'');text.append(a,b);const action=document.createElement('button');action.textContent=c.id.startsWith('user-')||c.id.startsWith('custom-')?'삭제':'학습';action.onclick=()=>{if(action.textContent==='삭제'){if(!confirm('이 표현을 삭제할까요?'))return;app.custom=app.custom.filter(x=>x.id!==c.id);delete app.records[c.id];save();initFlash();renderSaved();renderStats();notify('표현을 삭제했어요.')}else{filterDay=c.day;mode='all';initFlash();flashQueue=[c.id,...flashQueue.filter(id=>id!==c.id)];changeTab('flash')}};row.append(text,action);holder.append(row)});if(!list.length)holder.textContent='검색 결과가 없어요.'}
+$('search').oninput=renderSaved;
+$('backupBtn').onclick=()=>{const backup={type:'my-american-english-backup',version:2,exportedAt:new Date().toISOString(),data:app};const blob=new Blob([JSON.stringify(backup,null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='american-english-backup-'+dayText()+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),2000);notify('백업 파일을 저장했어요.')};
+$('restoreBtn').onclick=()=>$('restoreFile').click();$('restoreFile').onchange=async e=>{const file=e.target.files?.[0];if(!file)return;try{const raw=JSON.parse(await file.text());if(raw.type!=='my-american-english-backup'||!raw.data||!Array.isArray(raw.data.custom)||!raw.data.records)throw Error('invalid');if(!confirm('백업 기록으로 현재 기록을 바꿀까요?'))return;app={...initial(),...raw.data};save();initFlash();startQuiz();renderFlash();renderSaved();notify('기록 복원이 완료됐어요.')}catch(err){alert('이 앱에서 만든 올바른 JSON 백업 파일이 아니에요.')}finally{$('restoreFile').value=''}};
+$('resetBtn').onclick=()=>{if(!confirm('암기 기록만 초기화할까요? 직접 추가한 표현은 유지됩니다.'))return;app.records={};app.log=[];save();initFlash();startQuiz();renderFlash();renderStats();notify('기록을 초기화했어요.')};
+document.addEventListener('keydown',e=>{if(currentTab!=='flash'||['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(e.key===' '){e.preventDefault();if(nowCard()){cardShown=!cardShown;renderFlash()}}if(e.key==='ArrowRight')$('skipBtn').click();if(e.key==='1')$('missBtn').click();if(e.key==='2')$('knowBtn').click()});
+// Apply one-click update links when hosted at a stable URL; existing cards remain unchanged.
+try{if(location.hash.startsWith('#add=')){const encoded=decodeURIComponent(location.hash.slice(5));const raw=JSON.parse(atob(encoded));const result=dedupAdd(parseBulk(JSON.stringify(raw)));if(result.added)notify(result.added+'개 표현을 링크로 추가했어요.');history.replaceState(null,'',location.pathname+location.search)}}catch(e){}
+initFlash();renderFlash();renderStats();
+
+// Remote card list stays at a stable URL. The app itself does not need replacing.
+let latestRemoteVersion=null, lastSuccessfulSync=0, syncingNow=false;
+const REMOTE_DATA='./cards.json';
+async function syncCards(silent=false){
+  if(syncingNow) return;
+  syncingNow=true;
+  const btn=$('syncBtn');if(btn)btn.disabled=true;
+  try{
+    const response=await fetch(REMOTE_DATA+'?fresh='+Date.now(),{cache:'no-store'});
+    if(!response.ok)throw new Error('HTTP '+response.status);
+    const data=await response.json();
+    if(!data||!Array.isArray(data.cards)||!data.cards.length)throw new Error('Invalid card list');
+    const ids=new Set(),english=new Set(),ready=[];
+    for(const c of data.cards){
+      if(typeof c.id!=='string'||typeof c.en!=='string'||typeof c.ko!=='string'||!c.id||!c.en.trim()||!c.ko.trim())throw new Error('Invalid card');
+      const norm=normalize(c.en);
+      if(ids.has(c.id)||english.has(norm))throw new Error('Duplicate card');
+      ids.add(c.id);english.add(norm);
+      ready.push({id:c.id,en:c.en,ko:c.ko,day:c.day||dayText(),tag:c.tag||'새 표현'});
+    }
+    const oldIds=new Set(BASE.map(c=>c.id));
+    const newIds=ready.filter(c=>!oldIds.has(c.id)).map(c=>c.id);
+    const oldSignature=BASE.map(c=>c.id+'|'+c.en+'|'+c.ko).join('\n');
+    const newSignature=ready.map(c=>c.id+'|'+c.en+'|'+c.ko).join('\n');
+    latestRemoteVersion=data.version||null;
+    lastSuccessfulSync=Date.now();
+    if(oldSignature!==newSignature){
+      BASE.splice(0,BASE.length,...ready);
+      migrateExistingRecords();
+      const permitted=new Set(optionsForMode()[mode].map(c=>c.id));
+      flashQueue=flashQueue.filter(id=>permitted.has(id));
+      for(const id of newIds){if(permitted.has(id)&&!flashQueue.includes(id)&&!missedQueue.includes(id))flashQueue.push(id)}
+      quizQueue=quizQueue.filter(id=>allCards().some(c=>c.id===id));
+      for(const id of newIds){if(!isMaster({id})&&!quizQueue.includes(id))quizQueue.push(id)}
+      if(!flashQueue.length && optionsForMode()[mode].length) initFlash();
+      renderFlash();renderStats();
+      if(currentTab==='add')renderSaved();
+      if(currentTab==='quiz'&&!quizCard)startQuiz();
+      notify('새 표현 '+newIds.length+'개 동기화 완료! 전체 '+allCards().length+'개');
+    }else if(!silent){
+      notify('최신 상태예요 · 전체 '+allCards().length+'개');
+    }
+    if(btn)btn.textContent='✓ '+allCards().length+'개 최신';
+  }catch(e){
+    if(!silent)notify('연결을 확인해 주세요. 저장된 표현으로 계속 공부할 수 있어요.');
+    if(btn)btn.textContent='↻ 최신 표현 확인';
+  }finally{syncingNow=false;if(btn)btn.disabled=false}
+}
+$('syncBtn').onclick=()=>syncCards(false);
+window.addEventListener('focus',()=>{if(Date.now()-lastSuccessfulSync>30000)syncCards(true)});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-lastSuccessfulSync>30000)syncCards(true)});
+// Refresh on app launch and periodically while it remains open.
+syncCards(true);
+setInterval(()=>{if(!document.hidden)syncCards(true)},300000);
+</script></body></html>
