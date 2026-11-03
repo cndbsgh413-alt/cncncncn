@@ -1,6 +1,69 @@
 {
-  "version": "2026-11-03-v1",
+  "version": "2026-11-03-classroom-session",
   "cards": [
+    {
+      "id": "d5-class-follow-01",
+      "en": "What do you see in this picture?",
+      "ko": "이 그림에서 무엇이 보이나요?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-02",
+      "en": "Who wants to answer?",
+      "ko": "누가 대답해 볼래요?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-03",
+      "en": "That was an excellent answer!",
+      "ko": "아주 훌륭한 대답이었어!",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-04",
+      "en": "Who else wants to give it a try?",
+      "ko": "다른 사람도 한번 해 볼래?",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-05",
+      "en": "No worries!",
+      "ko": "괜찮아!",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-06",
+      "en": "Take your time.",
+      "ko": "천천히 해도 돼.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-07",
+      "en": "Let me give you a hint.",
+      "ko": "힌트를 하나 줄게.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-08",
+      "en": "Take turns asking and answering questions.",
+      "ko": "번갈아 질문하고 대답하세요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "d5-class-follow-09",
+      "en": "You have three minutes.",
+      "ko": "3분 줄게요.",
+      "day": "2026-11-03",
+      "tag": "교실 영어"
+    },
     {
       "id": "d5-class-01",
       "en": "Let's get started.",
