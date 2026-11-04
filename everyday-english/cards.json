@@ -714,6 +714,111 @@
       "ko": "오늘은 여기까지 하자.",
       "day": "2026-10-23",
       "tag": "회화"
+    },
+    {
+      "id": "2026-11-04-class-01",
+      "en": "Eyes on me, everyone!",
+      "ko": "여러분, 선생님을 보세요!",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-02",
+      "en": "Open your books to page 45.",
+      "ko": "교과서 45쪽을 펴세요.",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-03",
+      "en": "Listen first, then repeat after me.",
+      "ko": "먼저 듣고 따라 말하세요.",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-04",
+      "en": "You have three minutes. Go ahead and start!",
+      "ko": "3분 줄게요. 시작하세요!",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-05",
+      "en": "I'll give you three minutes. Ready? Go!",
+      "ko": "3분 줄게요. 준비됐나요? 시작!",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-06",
+      "en": "Time's up! Eyes on me!",
+      "ko": "시간 끝났어요! 선생님을 보세요!",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-07",
+      "en": "Time's up! Stop what you're doing and look at me.",
+      "ko": "시간 끝났어요! 하던 일을 멈추고 선생님을 보세요.",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-08",
+      "en": "Who wants to share?",
+      "ko": "누가 발표해 볼까요?",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-09",
+      "en": "Who wants to share? Raise your hand, please.",
+      "ko": "누가 발표해 볼까요? 손 들어 보세요.",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-10",
+      "en": "Who would like to present?",
+      "ko": "누가 준비한 내용을 발표해 볼까요?",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-11",
+      "en": "Any volunteers?",
+      "ko": "자원하는 사람 있나요?",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-12",
+      "en": "Great job! I can see your effort.",
+      "ko": "잘했어! 네 노력이 보여.",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-13",
+      "en": "Great job! I can tell you worked really hard.",
+      "ko": "잘했어! 정말 열심히 노력했구나.",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-14",
+      "en": "Nice try! I can see you're working hard.",
+      "ko": "좋은 시도였어! 열심히 노력하고 있는 게 보여.",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
+    },
+    {
+      "id": "2026-11-04-class-15",
+      "en": "Keep it up!",
+      "ko": "계속 그렇게 해!",
+      "day": "2026-11-04",
+      "tag": "교실 영어"
     }
   ]
 }
