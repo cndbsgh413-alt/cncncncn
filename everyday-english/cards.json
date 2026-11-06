@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-03-classroom-session",
+  "version": "2026-11-06-daily",
   "cards": [
     {
       "id": "d5-class-follow-01",
@@ -903,6 +903,76 @@
       "ko": "아직도 밤에 두 번씩 깨.",
       "day": "2026-11-05",
       "tag": "일상회화"
+    },
+    {
+      "id": "20261106-daily-01",
+      "en": "November has been pretty good so far.",
+      "ko": "11월은 지금까지 꽤 괜찮았어.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-02",
+      "en": "November’s off to a pretty good start.",
+      "ko": "11월은 시작이 꽤 좋아.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-03",
+      "en": "I wanna play video games again.",
+      "ko": "다시 비디오 게임을 하고 싶어.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-04",
+      "en": "I especially wanna get a PlayStation 5.",
+      "ko": "특히 플레이스테이션 5를 사고 싶어.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-05",
+      "en": "I’ve played both of them.",
+      "ko": "둘 다 해 봤어.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-06",
+      "en": "They have huge open worlds and give players a lot of freedom.",
+      "ko": "두 게임 모두 오픈월드가 방대하고 플레이어에게 자유도가 높아.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-07",
+      "en": "I haven’t played this game yet.",
+      "ko": "이 게임은 아직 해 보지 않았어.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-08",
+      "en": "I just got interested after watching a gameplay video.",
+      "ko": "게임 플레이 영상을 보고 관심이 생겼어.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-09",
+      "en": "It caught my attention.",
+      "ko": "그게 내 관심을 끌었어.",
+      "day": "2026-11-06",
+      "tag": "일상"
+    },
+    {
+      "id": "20261106-daily-10",
+      "en": "I’ve never played it before, but I got interested after watching some gameplay footage.",
+      "ko": "해 본 적은 없지만 게임 플레이 영상을 보고 관심이 생겼어.",
+      "day": "2026-11-06",
+      "tag": "일상"
     }
   ]
 }
