@@ -973,6 +973,62 @@
       "ko": "해 본 적은 없지만 게임 플레이 영상을 보고 관심이 생겼어.",
       "day": "2026-11-06",
       "tag": "일상"
+    },
+    {
+      "id": "d11-01",
+      "en": "It takes an hour and a half to get there.",
+      "ko": "거기까지 가는 데 한 시간 반 걸려.",
+      "day": "2026-11-11",
+      "tag": "일상"
+    },
+    {
+      "id": "d11-02",
+      "en": "We hang out together.",
+      "ko": "우리는 함께 시간을 보내.",
+      "day": "2026-11-11",
+      "tag": "일상"
+    },
+    {
+      "id": "d11-03",
+      "en": "I ordered takeout last weekend.",
+      "ko": "지난 주말에 포장 음식을 주문했어.",
+      "day": "2026-11-11",
+      "tag": "일상"
+    },
+    {
+      "id": "d11-04",
+      "en": "We ordered sushi. It's yellowtail season!",
+      "ko": "우리는 초밥을 주문했어. 지금은 방어 철이야!",
+      "day": "2026-11-11",
+      "tag": "일상"
+    },
+    {
+      "id": "d11-05",
+      "en": "We take turns.",
+      "ko": "우리는 번갈아 해.",
+      "day": "2026-11-11",
+      "tag": "일상"
+    },
+    {
+      "id": "d11-06",
+      "en": "I miss having time to myself.",
+      "ko": "혼자만의 시간이 그리워.",
+      "day": "2026-11-11",
+      "tag": "일상"
+    },
+    {
+      "id": "d11-07",
+      "en": "These days, I'm really into cooking steak.",
+      "ko": "요즘 스테이크 굽는 데 푹 빠졌어.",
+      "day": "2026-11-11",
+      "tag": "일상"
+    },
+    {
+      "id": "d11-08",
+      "en": "I like my steak cooked medium.",
+      "ko": "나는 스테이크를 미디엄으로 익힌 걸 좋아해.",
+      "day": "2026-11-11",
+      "tag": "일상"
     }
   ]
 }
